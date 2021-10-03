@@ -1,4 +1,4 @@
-FROM php:7.2-cli
+FROM php:7.4.22-cli
 
 RUN apt-get update && apt-get install -y libdb5.3++-dev
 
